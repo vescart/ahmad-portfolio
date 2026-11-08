@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmad Siddiqui — Selected Work</title>
+  <meta name="description" content="Selected production work: Esqyre luxury mobility, Mega Store commerce, DupliPark parking, Bazaarna ecommerce, preschool management, and EchoApp messaging." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #070707;
+      --bg-2: #101010;
+      --ink: #f4f1ea;
+      --muted: rgba(244, 241, 234, 0.62);
+      --line: rgba(244, 241, 234, 0.12);
+      --gold: #c8b07a;
+      --gold-2: #e7d7a4;
+      --sans: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --display: Poppins, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.55;
+      letter-spacing: -0.011em;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    button, .btn { font-family: inherit; }
+
+    .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+    #work, #esqyre, #mega, #mobility, #tantradev, #contact { scroll-margin-top: 88px; }
+    .kicker {
+      font-family: var(--sans);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(7, 7, 7, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+    .logo {
+      font-family: var(--display);
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--muted);
+    }
+    .nav-links a:hover { color: var(--ink); }
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--gold);
+      color: var(--gold-2);
+      padding: 9px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+    .nav-cta svg {
+      width: 15px;
+      height: 15px;
+      flex-shrink: 0;
+    }
+    .nav-cta:hover { background: var(--gold); color: #111; }
+
+    .hero {
+      padding: 96px 0 72px;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero h1 {
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+      max-width: 16ch;
+      margin: 16px 0 20px;
+    }
+    .hero p.lead {
+      max-width: 46ch;
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+      margin-top: 64px;
+    }
+    .stat {
+      background: var(--bg);
+      padding: 28px 20px;
+    }
+    .stat b {
+      display: block;
+      font-family: var(--display);
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+    }
+    .stat span { color: var(--muted); font-size: 12px; line-height: 1.4; }
+
+    .section { padding: 88px 0; }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-family: var(--display);
+      font-size: clamp(24px, 3vw, 34px);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+    }
+
+    .glance {
+      display: grid;
+      gap: 12px;
+    }
+    .glance-row {
+      display: grid;
+      grid-template-columns: 160px 160px 120px 1fr 180px;
+      gap: 16px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--line);
+      align-items: start;
+    }
+    .glance-row:first-child {
+      padding-top: 0;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .glance a { color: var(--gold-2); border-bottom: 1px solid rgba(200, 176, 122, 0.35); }
+    .glance .label { display: none; }
+    .tag {
+      display: inline-block;
+      border: 1px solid var(--line);
+      padding: 4px 8px;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 6px 6px 0;
+    }
+
+    .case {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 48px;
+      padding: 64px 0;
+      border-top: 1px solid var(--line);
+    }
+    .case-meta .num {
+      font-family: var(--sans);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--gold);
+      margin-bottom: 12px;
+      letter-spacing: 0.04em;
+    }
+    .case h3 {
+      font-family: var(--display);
+      font-size: clamp(26px, 3.2vw, 36px);
+      font-weight: 500;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin: 8px 0 16px;
+    }
+    .case .summary { color: var(--muted); max-width: 48ch; margin-bottom: 24px; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 28px; margin: 24px 0; }
+    .meta-row small { display: block; color: var(--muted); font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 28px; }
+    .chip {
+      border: 1px solid var(--line);
+      padding: 6px 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border: 1px solid var(--gold);
+      color: var(--gold-2);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+    button.btn {
+      background: transparent;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn:hover { background: var(--gold); color: #111; }
+    .btn.ghost { border-color: var(--line); color: var(--ink); }
+    .btn.ghost:hover { background: var(--ink); color: #111; }
+    .btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    .contact-head { margin-bottom: 32px; }
+    .contact-head h2 { max-width: 16ch; }
+    .contact-head p { margin-bottom: 0; color: var(--muted); max-width: 46ch; }
+    .contact-channels {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+      margin-bottom: 28px;
+    }
+    .channel {
+      background: var(--bg);
+      padding: 24px;
+      min-height: 132px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .channel-icon {
+      width: 20px;
+      height: 20px;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 16px;
+    }
+    .channel:hover { background: var(--bg-2); }
+    .channel:hover .channel-icon { color: var(--gold-2); }
+    .channel h3 {
+      font-family: var(--display);
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin: 8px 0 6px;
+    }
+    .channel p {
+      margin: 0;
+      max-width: none;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .contact-panel {
+      border: 1px solid var(--line);
+      padding: 28px;
+    }
+    .contact-form {
+      display: grid;
+      gap: 16px;
+    }
+    .contact-form[hidden] { display: none; }
+    .honey {
+      position: absolute;
+      left: -9999px;
+      height: 0;
+      width: 0;
+      opacity: 0;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .field { display: grid; gap: 6px; }
+    .field label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+    .field label span { color: var(--muted); font-weight: 400; }
+    .field input {
+      width: 100%;
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      border-radius: 0;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 14px;
+      padding: 10px 0 12px;
+      outline: none;
+    }
+    .field input:focus { border-bottom-color: var(--gold); }
+    .field input::placeholder { color: rgba(244, 241, 234, 0.32); }
+    .field.error input { border-bottom-color: #c97b7b; }
+    .field .err {
+      color: #d9a3a3;
+      font-size: 12px;
+      min-height: 0;
+    }
+    .form-hint { color: var(--muted); font-size: 13px; margin: 0; max-width: none; }
+    .form-status {
+      display: none;
+      border: 1px solid var(--line);
+      padding: 28px;
+    }
+    .form-status.is-visible { display: block; }
+    .form-status h3 {
+      font-family: var(--display);
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .form-status p { margin: 0; max-width: none; }
+
+    .preview {
+      min-height: 420px;
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+    .preview .bar {
+      height: 36px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0 14px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #3a3a3a; }
+    .preview-body { padding: 28px; height: calc(100% - 36px); }
+    .esqyre-prev {
+      background: #000;
+      min-height: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 36px;
+    }
+    .esqyre-prev h4 {
+      font-family: var(--display);
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
+    .esqyre-prev p { color: rgba(255,255,255,0.55); margin-top: 10px; font-size: 13px; }
+    .cats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+    .cats span {
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 6px 10px;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .mega-prev { background: linear-gradient(#f7f4d8, #eef2fb); color: #111; min-height: 380px; }
+    .mega-prev .bar { color: #555; border-color: rgba(0,0,0,0.08); }
+    .mega-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .mega-search {
+      flex: 1;
+      border: 1px solid #d8d4b0;
+      background: #fff;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #888;
+    }
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .pcard { background: #fff; padding: 10px; }
+    .pcard .ph { height: 84px; background: #eceff6; }
+    .pcard .l1, .pcard .l2 { height: 8px; background: #e6e8ef; margin-top: 10px; }
+    .pcard .l2 { width: 60%; }
+
+    .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; height: 100%; }
+    .mini {
+      border: 1px solid var(--line);
+      padding: 20px;
+      min-height: 180px;
+      background: #0d0d0d;
+    }
+    .mini h4 { font-family: var(--display); font-size: 20px; font-weight: 500; letter-spacing: -0.02em; margin: 8px 0 10px; }
+    .mini p { color: var(--muted); font-size: 13px; }
+    .park { background: linear-gradient(180deg, #102018, #0b0f0c); }
+    .bazaar { background: linear-gradient(180deg, #2a1a12, #120c09); }
+    .school { background: linear-gradient(180deg, #14202a, #0a1016); }
+    .echo { background: linear-gradient(180deg, #1a1428, #0c0a14); }
+
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 18px; margin: 8px 0 20px; }
+    .features li {
+      list-style: none;
+      color: var(--muted);
+      font-size: 14px;
+      padding-left: 14px;
+      position: relative;
+    }
+    .features li:before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background: var(--gold);
+      position: absolute;
+      left: 0;
+      top: 8px;
+    }
+
+    .stack {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .stack article {
+      border: 1px solid var(--line);
+      padding: 24px;
+      min-height: 160px;
+    }
+    .stack h3 { font-family: var(--display); font-size: 16px; margin: 10px 0 12px; font-weight: 500; letter-spacing: -0.02em; }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 40px;
+    }
+    footer h2 { max-width: 14ch; margin: 12px 0 18px; }
+    footer p { color: var(--muted); max-width: 46ch; margin-bottom: 28px; }
+    footer .copy { color: var(--muted); font-size: 12px; margin: 0; max-width: none; }
+
+    @media (max-width: 1080px) {
+      .nav-links { display: none; }
+      .glance-row { grid-template-columns: 1fr 1fr; }
+      .glance-row:first-child { display: none; }
+      .glance .label { display: block; color: var(--muted); font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px; }
+      .glance-row { border: 1px solid var(--line); padding: 18px; gap: 14px; }
+    }
+    @media (max-width: 900px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .stat b { font-size: 24px; }
+      .case, .pair, .features, .stack, .form-row, .contact-channels { grid-template-columns: 1fr; }
+      .section-head { flex-direction: column; align-items: flex-start; }
+      .hero { padding-top: 56px; }
+      .hero h1 { font-size: clamp(28px, 8vw, 40px); }
+      .nav-cta { padding: 8px 10px; font-size: 12px; }
+      .nav-actions { gap: 6px; }
+    }
+    @media (max-width: 560px) {
+      .stats, .glance-row { grid-template-columns: 1fr; }
+      .mega-top { flex-wrap: wrap; }
+      .logo { font-size: 14px; }
+      .nav-cta { padding: 8px; }
+      .nav-cta span { display: none; }
+      .nav-cta svg { width: 16px; height: 16px; }
+    }
+
+    @media print {
+      header, .nav-actions, .actions { display: none; }
+      body { background: #fff; color: #111; }
+      .preview { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#top">Ahmad Siddiqui</a>
+      <nav class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#esqyre">Esqyre</a>
+        <a href="#mega">Mega Store</a>
+        <a href="#mobility">DupliPark / Bazaarna</a>
+        <a href="#tantradev">TantraDev</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-cta" href="https://www.linkedin.com/in/ahmad-siddiqui-/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.47 2H3.53A1.45 1.45 0 0 0 2.06 3.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3.07V9.01h3.07ZM6.56 7.7A1.78 1.78 0 1 1 8.34 5.92 1.78 1.78 0 0 1 6.56 7.7Zm12.18 11h-3.06v-5.3c0-1.42-.53-2.39-1.88-2.39A2 2 0 0 0 11.9 12.5a2.4 2.4 0 0 0-.12.86v5.38H8.72V9.01h3.06v1.32a3.32 3.32 0 0 1 2.91-1.6c2.12 0 4 1.39 4 4.37Z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a class="nav-cta" href="mailto:ahmad4sidd@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+          <span>Email</span>
+        </a>
+        <a class="nav-cta" href="https://wa.me/918279972216?text=Hi%20Ahmad%2C%20I%20saw%20your%20work" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.01Zm-7.01 15.24h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.55-3.7 8.24-8.23 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.87.85-.87 2.07s.9 2.4 1.02 2.56c.12.17 1.76 2.67 4.27 3.74.6.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <p class="kicker">Selected work</p>
+        <h1>Production systems built for real operators.</h1>
+        <p class="lead">
+          Six products across luxury mobility, multi-vendor commerce, parking, preschool operations, and bulk messaging. Built to be shown, clicked, and walked through with a client.
+        </p>
+        <div class="stats">
+          <div class="stat"><b>6</b><span>Products shipped</span></div>
+          <div class="stat"><b>4</b><span>Client engagements</span></div>
+          <div class="stat"><b>2 yr</b><span>Longest engagement — Esqyre</span></div>
+          <div class="stat"><b>8 yr</b><span>Total experience · since Apr 2019</span></div>
+          <div class="stat"><b>Full stack</b><span>Web, APIs, admin, and customer apps</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">At a glance</p>
+            <h2>What to walk a client through</h2>
+          </div>
+          <p style="color:var(--muted); max-width:36ch;">Live links are included where the product is public. Internal admin panels are described from the production code.</p>
+        </div>
+        <div class="glance">
+          <div class="glance-row">
+            <div>Product</div>
+            <div>Client</div>
+            <div>Duration</div>
+            <div>What it is</div>
+            <div>See it</div>
+          </div>
+          <article class="glance-row">
+            <div><span class="label">Product</span>Esqyre</div>
+            <div><span class="label">Client</span>Luxury mobility</div>
+            <div><span class="label">Duration</span>2 years</div>
+            <div><span class="label">What it is</span>Chauffeur, fleet, aviation, yachts, stays, corporate — plus vendor, super-admin, and shared UI library</div>
+            <div><span class="label">See it</span><a href="https://devweb.esqyre.com/" target="_blank" rel="noopener">Live site</a></div>
+          </article>
+          <article class="glance-row">
+            <div><span class="label">Product</span>Mega Store</div>
+            <div><span class="label">Client</span>Multi-panel ecommerce</div>
+            <div><span class="label">Duration</span>1 year</div>
+            <div><span class="label">What it is</span>Customer storefront with admin, vendor, and factory operations</div>
+            <div><span class="label">See it</span><a href="https://mega-store.app/home-v2" target="_blank" rel="noopener">Live store</a></div>
+          </article>
+          <article class="glance-row">
+            <div><span class="label">Product</span>DupliPark</div>
+            <div><span class="label">Client</span>Same client as Bazaarna</div>
+            <div><span class="label">Duration</span>6–8 months</div>
+            <div><span class="label">What it is</span>QR parking, booking, payments, reservations, and revenue admin</div>
+            <div><span class="label">See it</span>Customer + admin</div>
+          </article>
+          <article class="glance-row">
+            <div><span class="label">Product</span>Bazaarna</div>
+            <div><span class="label">Client</span>Same client as DupliPark</div>
+            <div><span class="label">Duration</span>6–8 months</div>
+            <div><span class="label">What it is</span>Oman department-store ecommerce — beauty, grooming, lifestyle, same-day delivery</div>
+            <div><span class="label">See it</span><a href="https://play.google.com/store/apps/details?id=com.bazaarna" target="_blank" rel="noopener">Play Store</a></div>
+          </article>
+          <article class="glance-row">
+            <div><span class="label">Product</span>Preschool platform</div>
+            <div><span class="label">Client</span>TantraDev</div>
+            <div><span class="label">Duration</span>6–8 months</div>
+            <div><span class="label">What it is</span>Enrollment, attendance, fees, parent/teacher apps, daily reports</div>
+            <div><span class="label">See it</span><a href="https://www.tantradev.com/products/preschool-suite" target="_blank" rel="noopener">Product page</a></div>
+          </article>
+          <article class="glance-row">
+            <div><span class="label">Product</span>EchoApp</div>
+            <div><span class="label">Client</span>TantraDev</div>
+            <div><span class="label">Duration</span>6–8 months</div>
+            <div><span class="label">What it is</span>Bulk messaging across SMS, WhatsApp, email, and in-app campaigns</div>
+            <div><span class="label">See it</span><a href="https://in.linkedin.com/company/echoapp" target="_blank" rel="noopener">LinkedIn</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="esqyre">
+      <div class="wrap case">
+        <div class="case-meta">
+          <div class="num">01 / 2 years</div>
+          <p class="kicker">Luxury mobility</p>
+          <h3>Esqyre</h3>
+          <p class="summary">
+            A private mobility platform: chauffeur assigned in minutes, with supercars, aviation, yachts, villas, and a corporate suite on the same product. I worked across the public website, vendor operations, super-admin, corporate admin, shared Angular library, live tracking, and email templates.
+          </p>
+          <div class="meta-row">
+            <div><small>Duration</small>2 years</div>
+            <div><small>Surfaces</small>Website, vendor, super-admin, corporate, library</div>
+            <div><small>Stack</small>Angular 17–20, TypeScript, RxJS, shared rental-lib</div>
+          </div>
+          <ul class="features">
+            <li>Public site: chauffeur, fleet, aviation, yachts, stays, business</li>
+            <li>Vendor panel: bookings, cars, drivers, shifts, payouts</li>
+            <li>Ride-hailing ops: live tracking, geofence, cancellation rules</li>
+            <li>Corporate admin: team mobility, billing, reporting</li>
+            <li>Reusable @esqyre/rental-lib across apps</li>
+            <li>Partner apply, vendor portal, and transactional email</li>
+          </ul>
+          <div class="actions">
+            <a class="btn" href="https://devweb.esqyre.com/" target="_blank" rel="noopener">Open live site</a>
+            <a class="btn ghost" href="https://devweb.esqyre.com/explore/chauffeurs" target="_blank" rel="noopener">Chauffeur flow</a>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span> devweb.esqyre.com</div>
+          <div class="esqyre-prev">
+            <p class="kicker" style="color:#c8b07a">Time redefined</p>
+            <h4>Your chauffeur.<br>Minutes away.</h4>
+            <p>Professional chauffeurs. Precise timing. Absolute discretion.</p>
+            <div class="cats">
+              <span>Chauffeur</span>
+              <span>Supercars</span>
+              <span>Aviation</span>
+              <span>Yachts</span>
+              <span>Stays</span>
+              <span>Corporate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mega">
+      <div class="wrap case">
+        <div class="case-meta">
+          <div class="num">02 / 1 year</div>
+          <p class="kicker">Multi-vendor commerce</p>
+          <h3>Mega Store</h3>
+          <p class="summary">
+            A full ecommerce operating system: customer storefront plus three Angular panels for admin, vendors, and factories. Catalog, checkout, wallet, fleet, inventory, returns, payouts, and CMS all sit on the same platform.
+          </p>
+          <div class="meta-row">
+            <div><small>Duration</small>1 year</div>
+            <div><small>Surfaces</small>Storefront, admin, vendor, factory</div>
+            <div><small>Stack</small>Angular 15, SSR, i18n, encrypted API layer</div>
+          </div>
+          <ul class="features">
+            <li>Home, categories, brands, bag, checkout, wallet</li>
+            <li>Orders, returns, wishlist, addresses, payments</li>
+            <li>Admin: users, vendors, factories, fleet, geofencing</li>
+            <li>Vendor: outlets, inventory, reports, sub-admins</li>
+            <li>Factory: racks, batches, dispatch, settlements</li>
+            <li>Low-stock, banners, discounts, and CMS</li>
+          </ul>
+          <div class="actions">
+            <a class="btn" href="https://mega-store.app/home-v2" target="_blank" rel="noopener">Open live store</a>
+          </div>
+        </div>
+        <div class="preview mega-prev">
+          <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span> mega-store.app/home-v2</div>
+          <div class="preview-body">
+            <div class="mega-top">
+              <strong>MEGA STORE</strong>
+              <div class="mega-search">What are you looking for?</div>
+              <span>English</span>
+            </div>
+            <div class="grid-cards">
+              <div class="pcard"><div class="ph"></div><div class="l1"></div><div class="l2"></div></div>
+              <div class="pcard"><div class="ph"></div><div class="l1"></div><div class="l2"></div></div>
+              <div class="pcard"><div class="ph"></div><div class="l1"></div><div class="l2"></div></div>
+              <div class="pcard"><div class="ph"></div><div class="l1"></div><div class="l2"></div></div>
+              <div class="pcard"><div class="ph"></div><div class="l1"></div><div class="l2"></div></div>
+              <div class="pcard"><div class="ph"></div><div class="l1"></div><div class="l2"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mobility">
+      <div class="wrap case">
+        <div class="case-meta">
+          <div class="num">03 / 6–8 months</div>
+          <p class="kicker">Same client · two products</p>
+          <h3>DupliPark and Bazaarna</h3>
+          <p class="summary">
+            One client, two businesses: a parking product with QR scan-to-pay, and a Gulf ecommerce storefront. DupliPark covers the customer parking flow and the super-admin. Bazaarna is the Oman department-store experience — curated beauty, grooming, and lifestyle with same-day delivery.
+          </p>
+          <div class="meta-row">
+            <div><small>Duration</small>6–8 months</div>
+            <div><small>DupliPark</small>Angular 18, QR scanner, payments, SSR</div>
+            <div><small>Bazaarna</small>Customer commerce app + web</div>
+          </div>
+          <p class="kicker" style="margin: 0 0 8px;">DupliPark</p>
+          <ul class="features">
+            <li>Scan parking machine QR and start a session</li>
+            <li>Reserved and regular parking flows</li>
+            <li>Booking, contact capture, payment gateway</li>
+            <li>Admin: machines, clusters, spots, brands</li>
+            <li>Vehicle reservations and revenue reports</li>
+            <li>Parking history and machine types</li>
+          </ul>
+          <p class="kicker" style="margin: 8px 0;">Bazaarna</p>
+          <ul class="features">
+            <li>Oman online department store</li>
+            <li>Beauty, grooming, kids, lifestyle</li>
+            <li>Same-day delivery to the door</li>
+            <li>Catalog, bag, checkout, and account</li>
+          </ul>
+          <div class="actions">
+            <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.bazaarna" target="_blank" rel="noopener">Bazaarna on Play</a>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span> DupliPark · Bazaarna</div>
+          <div class="preview-body pair">
+            <article class="mini park">
+              <p class="kicker">Parking</p>
+              <h4>DupliPark</h4>
+              <p>QR in. Barrier up. Session billed. Super-admin for lots, machines, reservations, and revenue.</p>
+            </article>
+            <article class="mini bazaar">
+              <p class="kicker">Commerce</p>
+              <h4>Bazaarna</h4>
+              <p>Oman’s department store on mobile — local and international brands, same-day delivery.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tantradev">
+      <div class="wrap case">
+        <div class="case-meta">
+          <div class="num">04 / 6–8 months</div>
+          <p class="kicker">TantraDev · two products</p>
+          <h3>Preschool platform and EchoApp</h3>
+          <p class="summary">
+            Two products for TantraDev: a preschool operating system for admins, teachers, and parents, and EchoApp for bulk outreach. The school product replaces the spreadsheet-plus-WhatsApp stack. EchoApp is the campaign layer — one panel to reach people on the channel they actually use.
+          </p>
+          <div class="meta-row">
+            <div><small>Duration</small>6–8 months</div>
+            <div><small>Client</small>TantraDev</div>
+            <div><small>Surfaces</small>Admin web, teacher/parent apps, campaign console</div>
+          </div>
+          <p class="kicker" style="margin: 0 0 8px;">Preschool management</p>
+          <ul class="features">
+            <li>Enrollment, student 360, authorised pickup</li>
+            <li>Attendance, daily reports, photos</li>
+            <li>GST-aware fees and invoicing</li>
+            <li>Parent and teacher mobile apps</li>
+            <li>Announcements separate from chat</li>
+            <li>Transport, incidents, and safety records</li>
+          </ul>
+          <p class="kicker" style="margin: 8px 0;">EchoApp</p>
+          <ul class="features">
+            <li>Bulk SMS, WhatsApp, email, in-app</li>
+            <li>Audience lists and campaign dashboard</li>
+            <li>Scheduled sends and delivery tracking</li>
+            <li>Preferred-channel routing to cut cost</li>
+          </ul>
+          <div class="actions">
+            <a class="btn" href="https://www.tantradev.com/products/preschool-suite" target="_blank" rel="noopener">Preschool product</a>
+            <a class="btn ghost" href="https://in.linkedin.com/company/echoapp" target="_blank" rel="noopener">EchoApp on LinkedIn</a>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span> TantraDev</div>
+          <div class="preview-body pair">
+            <article class="mini school">
+              <p class="kicker">EdTech</p>
+              <h4>Preschool</h4>
+              <p>Admins run the school. Teachers run the room. Parents see the day — without a WhatsApp group doing three jobs at once.</p>
+            </article>
+            <article class="mini echo">
+              <p class="kicker">Messaging</p>
+              <h4>EchoApp</h4>
+              <p>One console for bulk campaigns. SMS, WhatsApp, email, and in-app — tracked in the same dashboard.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">How this work is built</p>
+            <h2>What I typically own</h2>
+          </div>
+        </div>
+        <div class="stack">
+          <article>
+            <p class="kicker">Product UI</p>
+            <h3>Customer and operator interfaces</h3>
+            <p style="color:var(--muted)">Storefronts, booking flows, dashboards, and admin consoles in Angular — including SSR, i18n, and shared component libraries.</p>
+          </article>
+          <article>
+            <p class="kicker">Multi-panel platforms</p>
+            <h3>Admin / vendor / factory / parent</h3>
+            <p style="color:var(--muted)">The same domain split across roles: Mega Store’s four apps, Esqyre’s vendor and super-admin, DupliPark’s customer vs operator split.</p>
+          </article>
+          <article>
+            <p class="kicker">Production details</p>
+            <h3>Auth, payments, realtime</h3>
+            <p style="color:var(--muted)">Guards, encrypted API contracts, wallets, payment gateways, QR flows, live tracking, and campaign-style messaging UIs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-head">
+        <p class="kicker">Contact</p>
+        <h2>Leave your details.</h2>
+        <p>Name is required. Email or phone — one is enough.</p>
+      </div>
+
+      <div class="contact-channels">
+        <a class="channel" href="https://www.linkedin.com/in/ahmad-siddiqui-/" target="_blank" rel="noopener">
+          <div>
+            <svg class="channel-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.47 2H3.53A1.45 1.45 0 0 0 2.06 3.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3.07V9.01h3.07ZM6.56 7.7A1.78 1.78 0 1 1 8.34 5.92 1.78 1.78 0 0 1 6.56 7.7Zm12.18 11h-3.06v-5.3c0-1.42-.53-2.39-1.88-2.39A2 2 0 0 0 11.9 12.5a2.4 2.4 0 0 0-.12.86v5.38H8.72V9.01h3.06v1.32a3.32 3.32 0 0 1 2.91-1.6c2.12 0 4 1.39 4 4.37Z"/></svg>
+            <p class="kicker">Profile</p>
+            <h3>LinkedIn</h3>
+            <p>Ahmad Siddiqui</p>
+          </div>
+        </a>
+        <a class="channel" href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmad4sidd@gmail.com" target="_blank" rel="noopener">
+          <div>
+            <svg class="channel-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+            <p class="kicker">Email</p>
+            <h3>Gmail</h3>
+            <p>ahmad4sidd@gmail.com</p>
+          </div>
+        </a>
+        <a class="channel" href="https://wa.me/918279972216?text=Hi%20Ahmad%2C%20I%20saw%20your%20work" target="_blank" rel="noopener">
+          <div>
+            <svg class="channel-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.01Zm-7.01 15.24h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.55-3.7 8.24-8.23 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.87.85-.87 2.07s.9 2.4 1.02 2.56c.12.17 1.76 2.67 4.27 3.74.6.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/></svg>
+            <p class="kicker">Chat</p>
+            <h3>WhatsApp</h3>
+            <p>+91 82799 72216</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-panel" id="contact-panel">
+        <form class="contact-form" id="contact-form" action="https://formsubmit.co/ahmad4sidd@gmail.com" method="POST" novalidate>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_subject" id="form-subject" value="Portfolio inquiry" />
+          <input type="hidden" name="_next" id="form-next" value="" />
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="honey" />
+          <div class="field" id="field-name">
+            <label for="contact-name">Name <span>*</span></label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+            <div class="err" id="err-name"></div>
+          </div>
+          <div class="form-row">
+            <div class="field" id="field-email">
+              <label for="contact-email">Email <span id="email-optional">(optional)</span></label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@gmail.com" />
+              <div class="err" id="err-email"></div>
+            </div>
+            <div class="field" id="field-phone">
+              <label for="contact-phone">Phone <span id="phone-optional">(optional)</span></label>
+              <input id="contact-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91 82799 72216" />
+              <div class="err" id="err-phone"></div>
+            </div>
+          </div>
+          <p class="form-hint" id="contact-hint">Provide at least one way to reach you.</p>
+          <div class="actions">
+            <button class="btn" type="submit" id="contact-submit">Send details</button>
+          </div>
+        </form>
+        <div class="form-status" id="contact-success" role="status">
+          <h3>Thanks — I’ll reply shortly.</h3>
+          <p id="contact-success-copy"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p class="copy">Ahmad Siddiqui · 8 years in the industry since Apr 2019 · Selected work.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      const form = document.getElementById("contact-form");
+      const success = document.getElementById("contact-success");
+      const successCopy = document.getElementById("contact-success-copy");
+      const nameInput = document.getElementById("contact-name");
+      const emailInput = document.getElementById("contact-email");
+      const phoneInput = document.getElementById("contact-phone");
+      const hint = document.getElementById("contact-hint");
+      const emailOptional = document.getElementById("email-optional");
+      const phoneOptional = document.getElementById("phone-optional");
+      const submitBtn = document.getElementById("contact-submit");
+
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      const phoneDigits = (value) => value.replace(/\D/g, "");
+
+      function setError(fieldId, errId, message) {
+        document.getElementById(fieldId).classList.toggle("error", Boolean(message));
+        document.getElementById(errId).textContent = message || "";
+      }
+
+      function clearErrors() {
+        setError("field-name", "err-name", "");
+        setError("field-email", "err-email", "");
+        setError("field-phone", "err-phone", "");
+        hint.textContent = "Provide at least one way to reach you.";
+      }
+
+      function updateOptionalLabels() {
+        const hasEmail = emailInput.value.trim() !== "";
+        const hasPhone = phoneInput.value.trim() !== "";
+        emailOptional.textContent = hasEmail ? "" : "(optional)";
+        phoneOptional.textContent = hasPhone ? "" : "(optional)";
+      }
+
+      function validate() {
+        clearErrors();
+        const name = nameInput.value.trim();
+        const email = emailInput.value.trim();
+        const phone = phoneInput.value.trim();
+        let ok = true;
+
+        if (!name) {
+          setError("field-name", "err-name", "Name is required.");
+          ok = false;
+        }
+
+        if (!email && !phone) {
+          setError("field-email", "err-email", "Add an email or a phone number.");
+          setError("field-phone", "err-phone", "Add a phone number or an email.");
+          hint.textContent = "Name is required. Email or phone — one is enough.";
+          ok = false;
+        }
+
+        if (email && !emailPattern.test(email)) {
+          setError("field-email", "err-email", "Enter a valid email address.");
+          ok = false;
+        }
+
+        if (phone && phoneDigits(phone).length < 8) {
+          setError("field-phone", "err-phone", "Enter a valid phone number.");
+          ok = false;
+        }
+
+        return ok;
+      }
+
+      emailInput.addEventListener("input", updateOptionalLabels);
+      phoneInput.addEventListener("input", updateOptionalLabels);
+
+      function showSuccess(detail) {
+        form.hidden = true;
+        success.classList.add("is-visible");
+        successCopy.textContent = detail || "I’ll get back to you shortly.";
+      }
+
+      if (/[?&]sent=1(?:&|$)/.test(window.location.search)) {
+        showSuccess("Your details were sent. I’ll reply by email or phone.");
+      }
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        if (!validate()) return;
+
+        const name = nameInput.value.trim();
+        const email = emailInput.value.trim();
+        document.getElementById("form-subject").value = "Portfolio inquiry from " + name;
+        document.getElementById("form-next").value =
+          window.location.origin + window.location.pathname + "?sent=1#contact";
+        if (email) {
+          let reply = form.querySelector('input[name="_replyto"]');
+          if (!reply) {
+            reply = document.createElement("input");
+            reply.type = "hidden";
+            reply.name = "_replyto";
+            form.appendChild(reply);
+          }
+          reply.value = email;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending…";
+        form.submit();
+      });
+    })();
+  </script>
+</body>
+</html>
